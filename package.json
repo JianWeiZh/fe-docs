@@ -1,0 +1,30 @@
+{
+  "name": "fe-docs",
+  "version": "1.0.0",
+  "description": "前端文档管理",
+  "main": "main.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChineseEngineer/fe-docs.git"
+  },
+  "keywords": [
+    "前端",
+    "前端文档"
+  ],
+  "author": "ChineseEnginner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChineseEngineer/fe-docs/issues"
+  },
+  "homepage": "https://github.com/ChineseEngineer/fe-docs#readme",
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.0.2",
+    "@vuepress/theme-vue": "^1.0.2",
+    "vuepress": "^1.0.2"
+  }
+}
