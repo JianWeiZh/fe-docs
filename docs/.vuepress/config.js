@@ -3,7 +3,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: 'FE-docs',
-      description: '前端文档管理'
+      description: '🛠️ 前端文档管理'
     },
     '/en/': {
       lang: 'en-US',
@@ -12,13 +12,13 @@ module.exports = {
     }
   },
   head: [
-    // ['link', {rel: 'icon', href: '/favicon.png'}],
+    ['link', {rel: 'icon', href: '/favicon.png'}],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    // ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
-    // ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
-    // ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
+    ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
+    ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   plugins: {
@@ -53,7 +53,17 @@ module.exports = {
           {
             text: '指南',
             link: '/guide/'
-          }
+          },
+          {
+            text: '开发规范',
+            items: [
+              { text: '开发流程规范', link: '/standard/development.md' },
+              { text: 'Vue 规范', link: '/standard/vue.md' },
+              { text: 'HTML 规范', link: '/standard/html.md' },
+              { text: 'CSS 规范', link: '/standard/css.md' },
+              { text: 'JavaScript 规范', link: '/standard/js.md' },
+            ]
+          },
         ]
       },
       '/en/': {

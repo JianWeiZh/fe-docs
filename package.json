@@ -4,8 +4,9 @@
   "description": "前端文档管理",
   "main": "main.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "docs": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "docs:deploy": "bash deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
