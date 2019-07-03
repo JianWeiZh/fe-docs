@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+website="https://chineseengineer.github.io/fe-docs/"
+
 # 确保脚本抛出遇到的错误
 set -e
 
@@ -23,3 +25,11 @@ git commit -m 'deploy'
 git push -f https://github.com/ChineseEngineer/fe-docs.git master:gh-pages
 
 cd -
+
+# 显示文档访问地址
+echo ""
+echo "文档访问地址："
+echo ${website}
+echo ""
+
+python -mwebbrowser ${website}
