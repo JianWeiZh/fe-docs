@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/fe-docs/',
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -55,13 +56,19 @@ module.exports = {
             link: '/guide/'
           },
           {
-            text: '开发规范',
+            text: '编码规范',
             items: [
-              { text: '开发流程规范', link: '/standard/development.md' },
-              { text: 'Vue 规范', link: '/standard/vue.md' },
               { text: 'HTML 规范', link: '/standard/html.md' },
               { text: 'CSS 规范', link: '/standard/css.md' },
               { text: 'JavaScript 规范', link: '/standard/js.md' },
+              { text: 'Vue 规范', link: '/standard/vue.md' },
+              { text: 'Comment 规范', link: '/standard/comment.md' },
+            ]
+          },
+          {
+            text: '流程规范',
+            items: [
+              { text: '开发流程规范', link: '/standard/development.md' },
             ]
           },
         ]
