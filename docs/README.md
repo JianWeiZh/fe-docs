@@ -33,5 +33,5 @@ yarn install
 ``` bash
 npm run docs
 # OR
-yarn dosc
+yarn docs
 ```
