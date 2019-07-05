@@ -68,7 +68,8 @@ module.exports = {
           {
             text: '流程规范',
             items: [
-              { text: '开发流程规范', link: '/standard/development.md' },
+              { text: 'Work 规范', link: '/standard/workFlow.md' },
+              { text: 'Git 规范', link: '/standard/git.md' },
             ]
           },
         ]
