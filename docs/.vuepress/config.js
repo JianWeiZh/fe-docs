@@ -23,19 +23,19 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   plugins: {
-    '@vuepress/pwa': {
-      serviceWorker: true,
-      updatePopup: {
-        '/': {
-          message: "发现新内容可用",
-          buttonText: "刷新"
-        },
-        '/en/': {
-          message: "New content is available.",
-          buttonText: "Refresh"
-        }
-      }
-    }
+    // '@vuepress/pwa': {
+    //   serviceWorker: true,
+    //   updatePopup: {
+    //     '/': {
+    //       message: "发现新内容可用",
+    //       buttonText: "刷新"
+    //     },
+    //     '/en/': {
+    //       message: "New content is available.",
+    //       buttonText: "Refresh"
+    //     }
+    //   }
+    // }
   },
   theme: '@vuepress/theme-vue',
   themeConfig: {
@@ -70,6 +70,13 @@ module.exports = {
             items: [
               { text: 'Work 规范', link: '/standard/workFlow.md' },
               { text: 'Git 规范', link: '/standard/git.md' },
+            ]
+          },
+          {
+            text: '工具使用',
+            items: [
+              { text: 'WebStorm', link: '/tools/webStorm.md' },
+              { text: 'Visual Studio Code', link: '/tools/vscode.md' },
             ]
           },
         ]
