@@ -51,3 +51,6 @@
   .component {}
 </style>
 ```
+
+## Vue官方指南参考
+[风格指南](https://cn.vuejs.org/v2/style-guide/)
