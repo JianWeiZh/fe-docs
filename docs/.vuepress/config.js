@@ -43,7 +43,7 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'docs',
     editLinks: true,
-    sidebarDepth: 3,
+    sidebarDepth: 4,
     sidebar: 'auto',
     locales: {
       '/': {
@@ -54,7 +54,11 @@ module.exports = {
         nav: [
           {
             text: '指南',
-            link: '/guide/'
+            items: [
+              { text: '介绍', link: '/guide/' },
+              { text: '新人指南', link: '/guide/newcomers.md' }
+            ],
+
           },
           {
             text: '编码规范',
