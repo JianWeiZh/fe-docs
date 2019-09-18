@@ -44,6 +44,7 @@ module.exports = {
     docsBranch: 'docs',
     editLinks: true,
     sidebarDepth: 3,
+    sidebar: 'auto',
     locales: {
       '/': {
         label: '简体中文',
@@ -77,6 +78,7 @@ module.exports = {
             items: [
               { text: 'WebStorm', link: '/tools/webStorm.md' },
               { text: 'Visual Studio Code', link: '/tools/vscode.md' },
+              { text: 'Fiddler', link: '/tools/fiddler.md' },
             ]
           },
         ]
@@ -94,5 +96,6 @@ module.exports = {
         ]
       }
     }
-  }
+  },
+  devServer: {},
 }
