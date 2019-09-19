@@ -85,6 +85,15 @@ module.exports = {
               { text: 'Fiddler', link: '/tools/fiddler.md' },
             ]
           },
+          {
+            text: '知识库',
+            items: [
+              { text: 'bug 库', link: '/knowledge/bugs.md' },
+              { text: 'CSS 最佳实践', link: '/knowledge/bestCss.md' },
+              { text: 'JavaScript 最佳实践', link: '/knowledge/bestJavaScript.md' },
+              { text: 'Vue 最佳实践', link: '/knowledge/bestVue.md' },
+            ]
+          },
         ]
       },
       '/en/': {
