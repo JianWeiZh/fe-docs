@@ -62,8 +62,11 @@ module.exports = {
 
           },
           {
-            text: '编码规范',
+            text: '规范文档',
             items: [
+              { text: 'Work 规范', link: '/standard/workFlow.md' },
+              { text: 'Git 规范', link: '/standard/git.md' },
+              { text: '约定规范', link: '/standard/git.md' },
               { text: 'HTML 规范', link: '/standard/html.md' },
               { text: 'CSS 规范', link: '/standard/css.md' },
               { text: 'JavaScript 规范', link: '/standard/js.md' },
@@ -72,27 +75,23 @@ module.exports = {
             ]
           },
           {
-            text: '流程规范',
-            items: [
-              { text: 'Work 规范', link: '/standard/workFlow.md' },
-              { text: 'Git 规范', link: '/standard/git.md' },
-            ]
-          },
-          {
             text: '工具使用',
             items: [
               { text: 'WebStorm', link: '/tools/webStorm.md' },
-              { text: 'Visual Studio Code', link: '/tools/vscode.md' },
               { text: 'Fiddler', link: '/tools/fiddler.md' },
+              { text: 'Visual Studio Code', link: '/tools/vscode.md' },
             ]
           },
           {
             text: '知识库',
             items: [
+              { text: 'utils 库', link: '/knowledge/utils.md' },
+              { text: 'optimusSDK', link: '/knowledge/optimusSDK.md' },
               { text: 'bug 库', link: '/knowledge/bugs.md' },
               { text: 'CSS 最佳实践', link: '/knowledge/bestCss.md' },
               { text: 'JavaScript 最佳实践', link: '/knowledge/bestJavaScript.md' },
               { text: 'Vue 最佳实践', link: '/knowledge/bestVue.md' },
+              { text: '正则 最佳实践', link: '/knowledge/bestRegexe.md' },
             ]
           },
         ]

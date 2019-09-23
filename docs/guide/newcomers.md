@@ -10,11 +10,10 @@
 - 车主惠内部沟通群
 
 ## 公众号关注
-- 车友部落预言
-- 车友部落官微
-- 车主惠服务号
+![车友部落官微](./assets/img/newcomers/guanwei-qrcode.jpg)
+![车友部落预言](./assets/img/newcomers/yuyan-qrcode.jpg)
+![车主惠服务号](./assets/img/newcomers/service-qrcode.jpg)
 - 爱保CLUB
-- 浙江人保财险
 
 ## 车主惠APP下载
 ![optimusApp](./assets/img/newcomers/optimusApp.png)
