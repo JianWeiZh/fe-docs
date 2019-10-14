@@ -72,6 +72,8 @@ module.exports = {
               { text: 'JavaScript 规范', link: '/standard/js.md' },
               { text: 'Vue 规范', link: '/standard/vue.md' },
               { text: 'Comment 规范', link: '/standard/comment.md' },
+              { text: '测试用例 规范', link: '/standard/testCase.md' },
+              { text: '沟通 规范', link: '/standard/communicate.md' },
             ]
           },
           {

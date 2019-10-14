@@ -8,10 +8,7 @@
  */
 export const getToken = () => {
   const ua = window.navigator.userAgent
-  const currentToken = ua.indexOf('token:') !== -1 
-      ? (window.navigator.userAgent.substring(window.navigator.userAgent.indexOf('token:') + 6)) 
-      : localStorage.getItem('token')
-  return currentToken
+  return (ua.indexOf('token:') !== -1 && ua.substring(ua.indexOf('token:') + 6)) || localStorage.getItem('token')
 }
 ```
 
@@ -25,9 +22,18 @@ export const getToken = () => {
 
 ```
 
-## 环境检测
+## 获取url中的路由信息
 ```js
-
+/**
+ * 
+ * @param url
+ * @param mode
+ * @param prefix
+ * @return {*}
+ */
+export const getRoutePathByUrlString = (url, mode = 'hash', prefix = '') => {
+  return url
+}
 ```
 
 ## 环境检测

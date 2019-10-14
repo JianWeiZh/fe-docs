@@ -20,3 +20,7 @@ isMobile(13488888106)
 // 错误
 isMobile(23488888106)
 ```
+## 匹配表情符
+```js
+const emojiRegex = /[\uD800-\uDFFF]./
+```

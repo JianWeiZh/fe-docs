@@ -1,6 +1,6 @@
 {
   "name": "fe-docs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "前端文档管理",
   "main": "main.js",
   "scripts": {
