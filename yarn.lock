@@ -1989,7 +1989,7 @@ commander@2.17.x:
   resolved "https://registry.npm.taobao.org/commander/download/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
   integrity sha1-vXerfebelCBc6sxy8XFtKfIKd78=
 
-commander@^2.19.0:
+commander@2.20.0, commander@^2.19.0:
   version "2.20.0"
   resolved "https://registry.npm.taobao.org/commander/download/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha1-1YuytcHuj4ew00ACfp6U4iLFpCI=
@@ -3303,6 +3303,14 @@ global@^4.3.2:
     min-document "^2.19.0"
     process "^0.11.10"
 
+global@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/global/-/global-4.4.0.tgz#3e7b105179006a323ed71aafca3e9c57a5cc6406"
+  integrity sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==
+  dependencies:
+    min-document "^2.19.0"
+    process "^0.11.10"
+
 globals@^11.1.0:
   version "11.12.0"
   resolved "https://registry.npm.taobao.org/globals/download/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
@@ -4179,6 +4187,15 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.npm.taobao.org/kind-of/download/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha1-ARRrNqYhjmTljzqNZt5df8b20FE=
 
+koa-generator@^1.1.17:
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/koa-generator/-/koa-generator-1.1.17.tgz#8ec726c4e1ef26f7baa6932b7133120f526e45c8"
+  integrity sha512-UNvw/WJORTUG4PHk4NUqz6y+UZkP026Ltc3rEUPXPCjPfTYFpZIHyhtoUb0n2K1G5Tf9w3Vs3/CJfV8N+PtJvA==
+  dependencies:
+    commander "2.20.0"
+    mkdirp "0.5.1"
+    sorted-object "2.0.1"
+
 last-call-webpack-plugin@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/last-call-webpack-plugin/download/last-call-webpack-plugin-3.0.0.tgz#9742df0e10e3cf46e5c0381c2de90d3a7a2d7555"
@@ -4603,7 +4620,7 @@ mkdirp@0.3.0:
   resolved "https://registry.npm.taobao.org/mkdirp/download/mkdirp-0.3.0.tgz#1bbf5ab1ba827af23575143490426455f481fe1e"
   integrity sha1-G79asbqCevI1dRQ0kEJkVfSB/h4=
 
-mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@~0.5.1:
+mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@~0.5.1:
   version "0.5.1"
   resolved "https://registry.npm.taobao.org/mkdirp/download/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
@@ -6289,6 +6306,11 @@ sort-keys@^2.0.0:
   integrity sha1-ZYU1WEhh7JfXMNbPQYIuH1ZoQSg=
   dependencies:
     is-plain-obj "^1.0.0"
+
+sorted-object@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/sorted-object/-/sorted-object-2.0.1.tgz#7d631f4bd3a798a24af1dffcfbfe83337a5df5fc"
+  integrity sha1-fWMfS9OnmKJK8d/8+/6DM3pd9fw=
 
 source-list-map@^2.0.0:
   version "2.0.1"
