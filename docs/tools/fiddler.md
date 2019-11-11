@@ -17,6 +17,11 @@
 ## 起步
 ### 下载安装：
 [https://www.telerik.com/download/fiddler](https://www.telerik.com/download/fiddler)
+### 相关文件：
+::: tip
+链接：[https://pan.baidu.com/s/1yZbb8LSKaYyVK2nTDUdLiQ](https://pan.baidu.com/s/1yZbb8LSKaYyVK2nTDUdLiQ)<br>
+提取码：rsfh
+:::
 ### 基本配置
 ##### STEP1:
 ![step1](./assets/img/fiddler/step1.png)
