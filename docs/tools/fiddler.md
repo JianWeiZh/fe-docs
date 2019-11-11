@@ -15,8 +15,8 @@
 ### https代理服务器
 
 ## 起步
-###下载安装
-   [https://www.telerik.com/download/fiddler](https://www.telerik.com/download/fiddler)
+### 下载安装：
+[https://www.telerik.com/download/fiddler](https://www.telerik.com/download/fiddler)
 ### 基本配置
 ##### STEP1:
 ![step1](./assets/img/fiddler/step1.png)
@@ -57,5 +57,36 @@ Android部分机型需要长按进入设置代理界面
 
 #### Android
 ::: tip 提示
+请使用系统默认浏览器下载,否则系统可能无法识别证书<br>
 启用证书，机型差异较大请自行百度
 :::
+
+### 断点调试
+#### 全局断点
+![breakPoint](./assets/img/fiddler/breakPoint.png)
+#### 单点请求前
+```bash
+// 响应断点
+bpu url
+
+// 取消断点
+bpu 回车
+```
+#### 单点请求后
+```bash
+// 响应断点
+bpafter url
+
+// 取消断点
+bpafter 回车
+```
+
+### 异常处理
+::: tip Fiddle 开启后不能上网
+1. 修改ie代理设置 不勾选代理
+2. Fiddler>>tools>>options>>connections>>Act as system proxy on startup 去掉勾选
+:::
+
+### 参考文章
+- https://www.cnblogs.com/tugenhua0707/p/4623317.html
+- https://www.cnblogs.com/yoyoketang/p/6778006.html

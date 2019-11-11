@@ -90,6 +90,7 @@ module.exports = {
               { text: 'utils 库', link: '/knowledge/utils.md' },
               { text: 'optimusSDK', link: '/knowledge/optimusSDK.md' },
               { text: 'bug 库', link: '/knowledge/bugs.md' },
+              { text: 'HTML 最佳实践', link: '/knowledge/bestHtml.md' },
               { text: 'CSS 最佳实践', link: '/knowledge/bestCss.md' },
               { text: 'JavaScript 最佳实践', link: '/knowledge/bestJavaScript.md' },
               { text: 'Vue 最佳实践', link: '/knowledge/bestVue.md' },
