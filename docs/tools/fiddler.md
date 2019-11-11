@@ -29,9 +29,16 @@
 
 ## 插件
 ### Stave
-- 下载地址：[Stave](./assets/fiddler/Stave.zip)
+- 下载地址：[Stave](https://code.google.com/archive/p/stave/)
 - 安装方式：
+::: tip
+执行 `FiddlerStaveSet.exe`<br>
+OR<br>
+将`Stave.dll` 文件复制Fiddler安装目录的Scripts 文件夹<br>
+C:\Program Files (x86)\Fiddler4\Scripts<br>
 
+**注意**：重启Fiddler
+:::
 ## 实战应用
 ### 手机抓包
 ##### 1、查看本机IP
